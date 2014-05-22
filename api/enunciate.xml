@@ -1,0 +1,12 @@
+<enunciate label="targeting_api" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="http://enunciate.codehaus.org/schemas/enunciate-1.26.xsd">
+    <services>
+        <rest defaultRestSubcontext="/"/>
+    </services>
+    <modules>
+        <docs splashPackage="maven.template" title="Maven Multi-module Template"
+              copyright="ZhouQianLi@Gmail.com">
+        </docs>
+    </modules>
+
+</enunciate>

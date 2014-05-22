@@ -1,0 +1,72 @@
+    [
+        {
+            "s": "act.ews",
+            "n": "yansegment_prod",
+            "p": "Pa55w0rd!"
+        },
+        {
+            "s": "act.ews.att_adworks.groupkey",
+            "n": "att_user",
+            "p": "test1234"
+        },
+        {
+            "s": "act.rmx.ya",
+            "n": "yahoo_audience_api",
+            "p": "g7WK5E"
+        },
+        {
+            "s": "act.rmx",
+            "n": "c2_scoring_account_us",
+            "p": "T63szyDN"
+        },
+        {
+            "s": "act.rmx.ha",
+            "n": "c2_scoring_account_ha",
+            "p": "PFKUm72hTg"
+        },
+        {
+            "s": "act.rmx.eu",
+            "n": "c2_scoring_account_eu",
+            "p": "cnpyYK8wsg"
+        },
+        {
+            "s": "act.rmx.au",
+            "n": "c2_scoring_account_au",
+            "p": "eO79WKCZn8"
+        },
+        {
+            "s": "act.rmx.sa",
+            "n": "c2_scoring_account_sa",
+            "p": "jN8YDRjDjz"
+        },
+        {
+            "s": "act.rmx.tt",
+            "n": "exchangewide_pixels_api_user",
+            "p": "8Ny4Vfn0hU"
+        },
+        {
+            "s": "act.rmx.a",
+            "n": "c2_scoring_account_a",
+            "p": "smGSt6heJ4"
+        },
+        {
+            "s": "act.rmx.ca",
+            "n": "c2_scoring_account_ca",
+            "p": "E8xtxImvq8"
+        },
+        {
+            "s": "act.rmx.in",
+            "n": "c2_scoring_account_in",
+            "p": "40DKtsEHYA"
+        },
+        {
+            "s": "act.rmx.br",
+            "n": "c2_scoring_account_br",
+            "p": "TISs8pNJUP"
+        },
+        {
+            "s": "act.rmx.ar",
+            "n": "c2_scoring_account_ar",
+            "p": "Ih1cqqhCn6"
+        }
+    ]

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Targeting API functional test suit" verbose="1" parallel="classes" thread-count="3">
+    <test verbose="2" name="Targeting API Functional Test">
+        <groups>
+            <run>
+                <include name="func_lite_test"/>
+                <include name="unit_test"/>
+                <exclude name="mute"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="template.test.funclite"/>
+            <package name="template.ws.connector"/>
+            <package name="template.ws.controller"/>
+            <package name="template.ws.core"/>
+            <package name="template.ws.data"/>
+            <package name="template.ws.exception"/>
+            <package name="template.ws.util"/>
+            <package name="template.ws.webapi.action"/>
+            <package name="template.ws.webapi.feature"/>
+            <package name="template.ws.webapi.reach"/>
+            <package name="template.ws.webapi.reporting"/>
+            <package name="template.ws.webapi.search"/>
+            <package name="template.ws.webapi.segment"/>
+        </packages>
+    </test>
+    <listeners>
+        <listener class-name="template.test.core.MarkdownAdaptor"/>
+    </listeners>
+</suite>

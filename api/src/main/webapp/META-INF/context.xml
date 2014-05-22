@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Context path="/api">
+    <Resource name="jdbc/oracle" auth="Container" type="javax.sql.DataSource" username="mdat_dev1"
+              password="dev"
+              url="jdbc:oracle:thin:@//localhost:1521/actgt01d"
+              driverClassName="oracle.jdbc.OracleDriver"
+              connectionProperties="processEscape=true;oracle.jdbc.FreeMemoryOnEnterImplicitCache=true;oracle.jdbc.ReadTimeout=60000"
+              defaultAutoCommit="false" defaultReadOnly="false" defaultTransactionIsolation="TRANSACTION_READ_COMMITTED"
+              initialSize="5" maxActive="50" maxIdle="20" minIdle="5" maxWait="120000"
+              validationQuery="SELECT 1 FROM DUAL" testOnBorrow="true" testOnReturn="false" testWhileIdle="false"
+              timeBetweenEvictionRunsMillis="-1" numTestsPerEvictionRun="3" minEvictableIdleTimeMillis="1800000"
+              poolPreparedStatements="false" maxOpenPreparedStatements="0" accessToUnderlyingConnectionAllowed="false"
+              removeAbandoned="true" removeAbandonedTimeout="120" logAbandoned="true"/>
+</Context>

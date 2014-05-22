@@ -1,0 +1,35 @@
+[
+    {
+        "key": "test_port",
+        "value": "4443"
+    },
+    {
+        "key": "test_protocol",
+        "value": "https"
+    },
+    {
+
+        "key": "invoke_type",
+        "value": "method"
+    },
+    {
+        "key": "test_hostname",
+        "value": "tgtapi001.qa.tgt.gq1.yahoo.com"
+    },
+    {
+        "key": "test_db_connection_string",
+        "value": "jdbc:oracle:thin:@//ne1-devtgtdb-001.data.ne1.yahoo.com:1521/actgt01d"
+    },
+    {
+        "key": "test_db_user",
+        "value": "mdat_dev1"
+    },
+    {
+        "key": "test_db_pw",
+        "value": "dev"
+    },
+    {
+        "key": "taxonomy_schema_prefix",
+        "value": "taxo_dev1."
+    }
+]

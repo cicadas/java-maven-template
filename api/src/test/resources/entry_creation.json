@@ -1,0 +1,40 @@
+{
+    "name": "Yahoo/BOW Retargeting/US/Standard/testSegment5",
+    "expiration": "2013-12-31",
+    "type": "bow",
+    "description": "Standard Segment Creation with RMX and APT exchange",
+    "created_by": "Targeting API Test",
+    "originator": "luotao",
+    "members": ["wangxiaohu", "lingyueru"],
+    "segment_definition": {
+        "segdef": {
+            "featuredef": {
+                "operator": "AND",
+                "left": {
+                    "featureName": "srch",
+                    "attrName": "kw",
+                    "operator": "IN",
+                    "value": ["aaa_test", "bbb_test"]
+                },
+                "right": {
+                    "featureName": "srch",
+                    "attrName": "ext",
+                    "operator": "IN",
+                    "value": ["exact", "misspelling", "subphrase"]
+                }
+            },
+            "featuredefprop": [
+                {
+                    "name": "rec",
+                    "value": "30",
+                    "op": "="
+                },
+                {
+                    "name": "freq",
+                    "value": "1",
+                    "op": ">="
+                }
+            ]
+        }
+    }
+}

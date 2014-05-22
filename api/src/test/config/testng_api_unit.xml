@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="UnitTestSuite" verbose="1">
+    <test name="unit">
+        <groups>
+            <run>
+                <include name="unit_test"/>
+                <exclude name="func_test"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="template.ws.connector"/>
+            <package name="template.ws.controller"/>
+            <package name="template.ws.core"/>
+            <package name="template.ws.data"/>
+            <package name="template.ws.exception"/>
+            <package name="template.ws.util"/>
+            <package name="template.ws.webapi.action"/>
+            <package name="template.ws.webapi.feature"/>
+            <package name="template.ws.webapi.reach"/>
+            <package name="template.ws.webapi.reporting"/>
+            <package name="template.ws.webapi.search"/>
+            <package name="template.ws.webapi.segment"/>
+        </packages>
+    </test>
+</suite>

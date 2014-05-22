@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Targeting API functional test suit" verbose="1" parallel="false">
+    <test verbose="2" name="Targeting API Functional Test">
+        <groups>
+            <run>
+                <include name="func_test"/>
+                <exclude name="mute"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="template.test.func"/>
+        </packages>
+    </test>
+</suite>
