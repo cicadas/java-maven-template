@@ -1,5 +1,5 @@
 {
-    "name": "Yahoo/BOW Retargeting/US/Standard/testSegment5",
+    "name": "testSegment5",
     "expiration": "2013-12-31",
     "type": "bow",
     "description": "Standard Segment Creation with RMX and APT exchange",

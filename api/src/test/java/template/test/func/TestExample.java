@@ -1,11 +1,11 @@
-package template.test.funclite;
+package template.test.func;
 
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 import template.test.actions.CreateSegmentAction;
 import template.test.actions.VerifyCommonAttributes;
 import template.test.concept.EntryCommon;
 import template.test.core.*;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 
 /**
  * @author zhouzh

@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Targeting API functional test suit" verbose="1" parallel="classes" thread-count="3">
-    <test verbose="2" name="Targeting API Functional Test">
+<suite name="Production verification test suit" verbose="1" parallel="classes" thread-count="3">
+    <test verbose="2" name="Targeting API production verification Test">
         <groups>
             <run>
-                <include name="func_lite_test"/>
-                <include name="unit_test"/>
-                <exclude name="mute"/>
+                <include name="prod"/>
             </run>
         </groups>
         <packages>
-            <package name="template.test.funclite"/>
+            <package name="template.test.func"/>
+            <package name="template.test.func"/>
             <package name="template.ws.connector"/>
             <package name="template.ws.controller"/>
             <package name="template.ws.core"/>

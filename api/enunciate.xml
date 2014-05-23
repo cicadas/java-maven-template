@@ -1,4 +1,4 @@
-<enunciate label="targeting_api" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<enunciate label="porject" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:noNamespaceSchemaLocation="http://enunciate.codehaus.org/schemas/enunciate-1.26.xsd">
     <services>
         <rest defaultRestSubcontext="/"/>

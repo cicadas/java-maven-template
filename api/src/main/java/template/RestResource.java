@@ -63,7 +63,7 @@ public class RestResource {
      * Get a full information.
      * <h3>Response example</h3>
      * {"id": "20000573",
-     * "name": "BOW Retargeting/US/Test Segment/zhouzh002",
+     * "name": "zhouzh002",
      * "expiration": "2013-12-31",
      * "type": "bow",
      * "description": "This is a fake BOW segment for testing purpose",
@@ -158,7 +158,7 @@ public class RestResource {
     /**
      * Remove a entry
      *
-     * @param id targeting category id
+     * @param id category id
      * @throws Exception
      */
     @DELETE

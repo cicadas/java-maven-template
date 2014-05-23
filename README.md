@@ -20,12 +20,13 @@ This is a multi-module Maven template project with Jersey web api support.  It w
 
 
 ## Common Links
+* [Project Structure][]
 * [Releases][]
 * [Features][]
 * [Frequently Asked Questions][]
 * [Getting Started][]
 * [Development Guide][]
-* [How Targeting API Is Tested][]
+* [How the Project Is Tested][]
 * [Development Timeline][]
 * [Report a Bug][]
 
@@ -33,5 +34,6 @@ This is a multi-module Maven template project with Jersey web api support.  It w
 [Frequently Asked Questions]: docs/faq.md
 [Getting Started]: docs/quickstart.md
 [Development Guide]: docs/dev.md
-[How Targeting API Is Tested]: docs/testing.md
+[How the Project Is Tested]: docs/testing.md
 [Development Timeline]: docs/timeline.md
+[Project Structure]: docs/struct.md
